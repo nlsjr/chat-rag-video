@@ -1,0 +1,17 @@
+python-dotenv
+ipykernel
+streamlit==1.39.0
+unidecode
+langchain_openai==0.2.2
+psycopg2==2.9.9
+faiss-cpu==1.8.0
+pytubefix==8.1.1
+moviepy==1.0.3
+langchain==0.3.3
+langchain_community==0.3.2
+langchain_experimental==0.3.2
+open_clip_torch==2.27.1
+torch==2.5.0
+chromadb==0.5.15
+langchain-chroma==0.1.4
+asyncio==3.4.3
