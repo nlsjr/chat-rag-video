@@ -49,3 +49,9 @@ def get_mp4_filename(directory):
     mp4_filename = [os.path.basename(file) for file in mp4_files]
 
     return mp4_filename
+
+
+def remove_all_files_from_frames():
+    for root, dirs, files in os.walk(os.path.join(os.getcwd(), "frames")):
+        for file in files:
+            os.remove(os.path.join(root, file))
